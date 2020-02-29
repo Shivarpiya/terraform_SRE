@@ -1,11 +1,11 @@
 variable "access_key" {
   description = "AWS access key"
-  default = "AKIAU4VT5HACWLL4ZZLT"
+  default = "<ACCESS_KEY_NAME>"
 }
 
 variable "secret_key" {
   description = "AWS secret key"
-  default = "t4LPIGUBhRq+dI3nmHRqy8nLM/BPcE/+s5j4KoS5"
+  default = "<KEY_SECRET>"
 }
 
 variable "region" {
@@ -20,7 +20,7 @@ variable "key_path" {
 
 variable "key_name" {
   description = "key name for ssh to server"
-  default = "ankitsoni"
+  default = "<NAME by which key created in AWS>"
 }
 
 variable "vpc_cidr" {
